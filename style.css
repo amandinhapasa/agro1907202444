@@ -1,0 +1,291 @@
+#style.css {width: 100%;height: 450px;}
+
+h1{text-align: center; font-size: 35px; height: 60px; padding: 10px;}
+
+p{ text-align: justify; font-size: 50px; }
+
+body{background: #c3ffc3;}
+
+a.linkum:hover {
+    color:rgb(54, 255, 54);
+}
+a.linkum:visited{
+    color:white;
+}
+a.linkum:link{
+    color: rgb(255, 255, 255);
+}
+
+
+.cabecalho {
+    background-image:linear-gradient(#c3ffc3, #4acf16);
+    color: white;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding: 25px 0;
+    font-size: 19px; 
+}
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: white;
+}
+
+.Página-imagem{
+    width: 25%;
+}
+
+#Página{
+    background-image: linear-gradient(#56f756);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Página-div-conteudo{
+    width: 35%;
+}
+
+
+.Página-titulo{
+    padding: 24px 0;
+}
+.Página-texto-tres{
+    color:rgb(0, 0, 0);
+    font-size: 220;
+}
+.rodaperigth{
+    background-color: #75ee6a;
+    text-align: right;
+}
+.rodapeleft{
+    background-color: #75ee6a;
+    text-align: left;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+   
+}
+.rodapeII-imagem{
+    height: 50px;
+    padding: 9px 0;
+   
+}
+
+.cabecalho-campoemfoco{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+}  
+
+.ideias{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 250px;
+}
+
+
+
+.AgroUpdate{  background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+
+}
+
+.Analisedemercado{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+}
+.Cultivo{
+    background-image:linear-gradient(#b1fcb1, #31a803);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 24px 0;
+    font-size: 20px;
+}
+.nav{ display: inline;
+text-align: var(#000000);
+    margin: 0 0 0 20px; }
+
+    h1{font-size: 30px; text-align: center}
+p{font-size: 20px; text-align: justify;}
+strong {font-size: 21px}
+nav li{ display: inline;
+margin: 0 0 0 20px; }
+
+.couve-imagem{
+    width: 20%;
+    height: 230px;
+
+}
+.cebolinha-imagem{
+    width: 15%;
+    height: 220px;
+}
+.Milho-imagem{
+    width: 15%;
+    height: 220px;
+}
+.Soja-imagem{
+    width: 15%;
+    height: 220px;
+}
+.Uva-imagem{
+    width: 15%;
+    height: 220px;
+}
+.Cebola-imagem{
+    width: 15%;
+    height: 220px;
+}
+.Sol-imagem{
+    height: 50px;
+    padding: 2px 0;
+}
+.Noticia1-imagem{
+    width: 20%;
+    height: 220px;
+}
+.money-imagem{
+    width: 15%;
+    height: 220px;
+}
+.Peixe-imagem{
+    width: 15%;
+    height: 210px;
+}
+.Boi-imagem{
+    width: 15%;
+    height: 210px;
+}
+.box{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-15%);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}
+fieldset{
+    border: 3px solid #b1fcb1;
+}
+legend{
+    border: 1px solid #b1fcb1;
+    padding: 10px;
+    text-align: center;
+    background-color: #b1fcb1;
+    border-radius: 8px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #b1fcb1;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right,#b1fcb1, #31a803);
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,to right,#b1fcb1, #31a803);
+}
+
+
+.clock{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.clock span{
+    color: black;
+    font-size: 35px;
+    display: flex;
+    align-items:center;
+    gap: 50px;
+}
+
+.clock span:not(:last-child)::after{
+    content: ':';
+    margin-bottom: 5px;
+    color: var(--color-light);
+}
+@media screen and (max-width: 220px) {
+    .clock span{
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .clock span:not(:last-child)::after{
+        display: none;
+    }
+}
